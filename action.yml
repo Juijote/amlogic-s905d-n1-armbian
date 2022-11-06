@@ -15,11 +15,11 @@ inputs:
   armbian_board:
     description: "Set Amlogic Board."
     required: false
-    default: "s905d_s905x3"
+    default: "s905d"
   armbian_kernel:
     description: "Set kernel version."
     required: false
-    default: "5.10.125_5.15.50"
+    default: "5.15.77"
   version_branch:
     description: "Set kernel branch."
     required: false
@@ -39,12 +39,12 @@ inputs:
   armbian_sign:
     description: "Set armbian custom name."
     required: false
-    default: ""
+    default: "Juijote"
   # For compile kernel -----
   kernel_version:
     description: "Select kernel version"
     required: false
-    default: "5.10.125_5.15.50"
+    default: "5.15.77"
   kernel_auto:
     description: "Auto use the latest kernel"
     required: false
